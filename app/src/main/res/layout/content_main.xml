@@ -35,6 +35,28 @@
             android:id="@+id/editText"
             android:selectAllOnFocus="false"
             android:singleLine="false" />
+
+        <TextView
+            android:text="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText2" />
+
+        <Button
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:textSize="30sp"
+            android:textAllCaps="false"/>
         =/>
     </LinearLayout>
 </RelativeLayout>
