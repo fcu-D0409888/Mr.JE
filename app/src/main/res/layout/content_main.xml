@@ -20,5 +20,21 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true">
 
+        <TextView
+            android:text="User Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:selectAllOnFocus="false"
+            android:singleLine="false" />
+        =/>
     </LinearLayout>
 </RelativeLayout>
